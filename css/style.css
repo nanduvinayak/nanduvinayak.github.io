@@ -1,0 +1,97 @@
+/* Global styles (body)*/
+body {
+    font-family: "Send Flowers", cursive; /* Set font family for the entire document */
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center; /* Center align heading */
+  }
+  
+  /* Navbar styles */
+  nav {
+    background-color: #885967; /* Set background color for the navbar */
+    overflow: hidden;
+  }
+  
+  nav h1 {
+    margin: 0;
+    padding: 15px 20px;
+    float: left;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #45a049; /* Change background color on hover */
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+    margin-top: 50px; /* Add space for the navbar */
+  }
+  
+  h2 {
+    text-align: center; /* Center align heading */
+  }
+  
+  /* Form styles */
+  form {
+    max-width: 400px;
+    margin: 0 auto; /* Center the form horizontally */
+    font-family: "Rakkas", serif; /* Set font family for the form */
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Set background color for buttons */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Change background color on hover */
+  }
+  
+  #smoothieOutput {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Set background color for smoothie output */
+  }
+  

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smoothie Machine</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Link to external CSS file -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Link to Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Rakkas&family=Send+Flowers&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header with navigation -->
+  <header>
+    <nav>
+      <div class="container">
+        <h1>Smoothie Cafe</h1> <!-- Company name -->
+        <ul>
+          <!-- Navigation links -->
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Create & enjoy your Smoothie !!!</h2> <!-- Heading -->
+    <form id="smoothieForm">
+      <!-- Form for smoothie selection -->
+      <label for="flavor">Select a flavor:</label>
+      <select id="flavor" name="flavor">
+        <!-- Options for flavors -->
+        <option value="strawberry">Strawberry</option>
+        <option value="banana">Banana</option>
+        <option value="mango">Mango</option>
+        <option value="blueberry">Blueberry</option>
+      </select><br>
+      <label for="base">Select a base:</label>
+      <select id="base" name="base">
+        <!-- Options for bases -->
+        <option value="milk">Milk</option>
+        <option value="yogurt">Yogurt</option>
+        <option value="coconut water">Coconut Water</option>
+      </select><br>
+      <label for="toppings">Select toppings (hold Ctrl to select multiple):</label>
+      <select id="toppings" name="toppings" multiple>
+        <!-- Options for toppings -->
+        <option value="spinach">Spinach</option>
+        <option value="kale">Kale</option>
+        <option value="chia seeds">Chia Seeds</option>
+        <option value="protein powder">Protein Powder</option>
+      </select><br>
+      <button type="button" onclick="createSmoothie()">Order</button> <!-- Order button -->
+    </form>
+    <div id="smoothieOutput"></div> <!-- Output area for smoothie description -->
+  </main>
+
+  <script src="./JavaScript/script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
